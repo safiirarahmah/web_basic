@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
+header{
+    display: inline;
+}
 
 body{
     font-family: 'Quicksand', sans-serif;
@@ -23,6 +26,8 @@ main{
 nav {
     background-color: #00a2c6;
     padding: 4px;
+    position: sticky;
+    top: 0;
 }
 
 nav li{
@@ -86,5 +91,18 @@ h2, h3 {
  aside{
     float: right;
     width: 25%;
+    padding-left: 20px;
 
+ }
+
+ * {
+    box-sizing: border-box;
+ }
+
+ @media screen and (max-width: 1000px) {
+    #content, aside{
+        width: 100%;
+        padding: 0;
+    }
+    
  }
