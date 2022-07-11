@@ -9,6 +9,7 @@ body{
 
 main{
     padding: 20px;
+    overflow: auto;
 }
 
 .jumbotron{
@@ -75,4 +76,15 @@ h2, h3 {
     background-color: #00a2c6;
     font-weight: bold;
     text-align: center;
+ }
+
+ #content{
+    float: left;
+    width: 75%;
+ }
+
+ aside{
+    float: right;
+    width: 25%;
+
  }
